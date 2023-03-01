@@ -16,7 +16,7 @@
     "url": "https://github.com/lavanya-mandapati/test-github-packages/issues"
   },
   "homepage": "https://github.com/lavanya-mandapati/test-github-packages#readme",
-  "publishConfig": {
+  "publish": {
     "registry": "https://npm.pkg.github.com"
   }
 }
