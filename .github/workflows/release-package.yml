@@ -1,9 +1,6 @@
-name: Node.js Package
-
-on:
-  release:
-    types: [created]
-
+name: learn-github-actions
+run-name: I am learning GitHub Actions
+on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -30,4 +27,4 @@ jobs:
       - run: npm ci
       - run: npm publish
         env:
-          NODE_AUTH_TOKEN: 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
+          NODE_AUTH_TOKEN: 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
