@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/lavanya-mandapati/test-github-packages#readme",
   "publishConfig": {
-    "@lavanya-mandapati:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   }
 }
